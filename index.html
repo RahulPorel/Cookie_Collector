@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Cottector</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <section class="section-container">
+        <h1>
+          Learning to code? This is the most important thing you will ever read
+          in your entire life!
+        </h1>
+
+        <ul>
+          <li class="li-green">💰 Land a job with a 9 figure salary</li>
+          <li class="li-yellow">💻 Master JavaScript in 1 hours</li>
+          <li class="li-blue">⚛️ Learn React in 20 minutes</li>
+          <li class="li-pink">
+            ☕ Be a NodeJS Dev by time you finish your lunch
+          </li>
+        </ul>
+
+        <h3>
+          My learning technique worked for Bill Gates and Albert Einstein, and
+          it can work for you!
+        </h3>
+        <img src="images/bugatti.jpg" />
+        <p>
+          Want a great job in tech? Want a nine-figure salary? Then you have
+          come to the right place. I am going to tell you all you need to know
+          to get all of that and much more, without you lifting a finger. You
+          can learn passively. Just sit back, close your eyes, and let the sound
+          of my voice make the code sink deep into your brain.
+        </p>
+      </section>
+    </main>
+    <div class="modal" id="modal">
+      <div class="close-modal-btn-container">
+        <button class="modal-close-btn" id="modal-close-btn" disabled>X</button>
+      </div>
+      <div class="modal-inner" id="modal-inner">
+        <h2>We ❤️ Your Data!</h2>
+        <p class="modal-text" id="modal-text">
+          We have a strict policy on tracking and spamming: we'll definitely
+          track you, and we'll definitely spam you. To use this site, enter your
+          name and email address and accept our ridiculous terms and conditions.
+        </p>
+
+        <form action="#" id="cookie-form">
+          <input
+            aria-label="Full name"
+            required
+            type="text"
+            name="fullName"
+            placeholder="Enter Your Full Name"
+          />
+
+          <input
+            required
+            type="name"
+            name="fullLocation"
+            placeholder="Enter your Location"
+          />
+
+          <input
+            required
+            type="email"
+            name="fullEmail"
+            placeholder="Enter Your Email"
+          />
+
+          <div class="modal-choice-btns" id="modal-choice-btns">
+            <button
+              class="modal-btn reverse green"
+              id="acceptBtn"
+              type="submit"
+            >
+              Accept
+            </button>
+            <button
+              class="modal-btn reverse red"
+              id="decline-btn"
+              type="button"
+            >
+              Decline
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
