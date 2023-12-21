@@ -9,7 +9,7 @@ const modalReverseBtns = document.getElementById("modal-choice-btns");
 
 setTimeout(() => {
   modal.style.display = "inline";
-}, 2500);
+}, 1200);
 
 modalCloseBtn.addEventListener("click", () => {
   modal.style.display = "none";
